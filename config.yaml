@@ -1,0 +1,12 @@
+tencent_cloud:
+  secret_id: "YOUR_SECRET_ID"
+  secret_key: "YOUR_SECRET_KEY"
+  region: ""
+
+purge_config:
+  paths:
+    - "https://example.com/css/"
+    - "https://example.com/js/"
+  flush_type: "flush"
+  url_encode: false
+  area: "mainland"
